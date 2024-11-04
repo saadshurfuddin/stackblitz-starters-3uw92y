@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif; /* Use a clean, sans-serif font */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light background color */
+  color: #212529; /* Dark text color */
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #0056b3; /* Blue color for headings */
+}
+
+h1 {
+  font-size: 2.5em; /* Adjust size for main heading */
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em; /* Adjust size for subheadings */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.75em; /* Adjust size for smaller headings */
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em; /* Space out paragraphs */
+}
+
+.container {
+  max-width: 800px; /* Center content */
+  margin: auto;
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  body {
+      padding: 10px; /* Add padding on smaller screens */
+  }
+
+  h1 {
+      font-size: 2em; /* Adjust heading size for mobile */
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  h3 {
+      font-size: 1.25em;
+  }
+}
